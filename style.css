@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+body {
+  font-family: "Pangolin", cursive;
+  text-align: center;
+  font-size: 30px;
+}
+
+.heart {
+  color: rgb(238, 0, 87);
+  animation: beat 0.25s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes beat {
+  to {
+    transform: scale(1.4);
+  }
+}
+
+body {
+  text-align: center;
+}
+
+.heart {
+  font-size: 250px;
+  color: rgb(238, 0, 87);
+
+  -webkit-animation: beat 0.25s infinite alternate;
+  -moz-animation: beat 0.25s infinite alternate;
+  -ms-animation: beat 0.25s infinite alternate;
+  -o-animation: beat 0.25s infinite alternate;
+  animation: beat 0.25s infinite alternate;
+
+  -webkit-transform-origin: center;
+  -moz-transform-origin: center;
+  -o-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+}
+
+@keyframes beat {
+  to {
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+}
+
+@-moz-keyframes beat {
+  to {
+    -moz-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+}
+
+@-webkit-keyframes beat {
+  to {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+}
+
+@-ms-keyframes beat {
+  to {
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+}
+
+@-o-keyframes beat {
+  to {
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+}
